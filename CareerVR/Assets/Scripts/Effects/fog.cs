@@ -11,7 +11,7 @@ public class fog : MonoBehaviour {
     // Use this for initialization
     void Start () {
         RenderSettings.fogColor = new Color(0, 0.4f, 0.7f,0.6f);
-        RenderSettings.fogDensity = 0.04f;
+        RenderSettings.fogDensity = fogDensity;
         //RenderSettings.fogMode = FogMode.Linear;
         RenderSettings.fog = true;
 

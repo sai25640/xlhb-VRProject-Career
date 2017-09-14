@@ -1,22 +1,61 @@
 fileFormatVersion: 2
 guid: f075c5253ce5c64499fa301e1103001c
-timeCreated: 1505108230
+timeCreated: 1505295918
 licenseType: Pro
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
-    100000: Cylinder035_MeshPart0
-    100002: Cylinder035_MeshPart1
-    100004: //RootNode
-    400000: Cylinder035_MeshPart0
-    400002: Cylinder035_MeshPart1
-    400004: //RootNode
-    2300000: Cylinder035_MeshPart0
-    2300002: Cylinder035_MeshPart1
-    3300000: Cylinder035_MeshPart0
-    3300002: Cylinder035_MeshPart1
-    4300000: Cylinder035_MeshPart0
-    4300002: Cylinder035_MeshPart1
+    100000: //RootNode
+    100002: jiaoshi_4:Cylinder030
+    100004: polySurface1
+    100006: polySurface10
+    100008: polySurface11
+    100010: polySurface13
+    100012: polySurface4
+    100014: polySurface5
+    100016: polySurface7
+    100018: polySurface7 1
+    100020: polySurface7_MeshPart0
+    100022: polySurface7_MeshPart1
+    100024: polySurface9
+    100026: transform1
+    100028: transform2
+    100030: transform3
+    100032: transform4
+    100034: transform5
+    100036: transform6
+    100038: transform7
+    100040: transform8
+    100042: transform9
+    400000: //RootNode
+    400002: jiaoshi_4:Cylinder030
+    400004: polySurface1
+    400006: polySurface10
+    400008: polySurface11
+    400010: polySurface13
+    400012: polySurface4
+    400014: polySurface5
+    400016: polySurface7
+    400018: polySurface7 1
+    400020: polySurface7_MeshPart0
+    400022: polySurface7_MeshPart1
+    400024: polySurface9
+    400026: transform1
+    400028: transform2
+    400030: transform3
+    400032: transform4
+    400034: transform5
+    400036: transform6
+    400038: transform7
+    400040: transform8
+    400042: transform9
+    2300000: polySurface7_MeshPart0
+    2300002: polySurface7_MeshPart1
+    3300000: polySurface7_MeshPart0
+    3300002: polySurface7_MeshPart1
+    4300000: polySurface7_MeshPart0
+    4300002: polySurface7_MeshPart1
+    9500000: //RootNode
   materials:
     importMaterials: 1
     materialName: 0
@@ -81,7 +120,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 0
+  animationType: 2
   humanoidOversampling: 1
   additionalBone: 0
   userData: 

@@ -1,27 +1,41 @@
 fileFormatVersion: 2
 guid: 56ebcd88321e73a4a998c9cb2a745be2
-timeCreated: 1505108172
+timeCreated: 1505295910
 licenseType: Pro
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
-    100000: //RootNode
-    100002: objObject067_MeshPart0
-    100004: objObject067_MeshPart1
-    100006: objObject067_MeshPart2
-    400000: //RootNode
-    400002: objObject067_MeshPart0
-    400004: objObject067_MeshPart1
-    400006: objObject067_MeshPart2
-    2300000: objObject067_MeshPart0
-    2300002: objObject067_MeshPart1
-    2300004: objObject067_MeshPart2
-    3300000: objObject067_MeshPart0
-    3300002: objObject067_MeshPart1
-    3300004: objObject067_MeshPart2
-    4300000: objObject067_MeshPart0
-    4300002: objObject067_MeshPart1
-    4300004: objObject067_MeshPart2
+    100000: Cylinder075
+    100002: //RootNode
+    100004: polySurface1
+    100006: polySurface100
+    100008: polySurface6
+    100010: polySurface6 1
+    100012: polySurface6_MeshPart0
+    100014: polySurface6_MeshPart1
+    100016: transform1
+    100018: transform2
+    100020: transform3
+    100022: transform4
+    400000: Cylinder075
+    400002: //RootNode
+    400004: polySurface1
+    400006: polySurface100
+    400008: polySurface6
+    400010: polySurface6 1
+    400012: polySurface6_MeshPart0
+    400014: polySurface6_MeshPart1
+    400016: transform1
+    400018: transform2
+    400020: transform3
+    400022: transform4
+    2300000: polySurface6_MeshPart0
+    2300002: polySurface6_MeshPart1
+    3300000: polySurface6_MeshPart0
+    3300002: polySurface6_MeshPart1
+    4300000: polySurface6_MeshPart0
+    4300002: polySurface6_MeshPart1
+    9500000: //RootNode
   materials:
     importMaterials: 1
     materialName: 0
@@ -86,7 +100,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 0
+  animationType: 2
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
