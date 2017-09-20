@@ -1,0 +1,249 @@
+fileFormatVersion: 2
+guid: 7ed216da8e7b3b241be75b8719ca0325
+timeCreated: 1505891544
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: csjiaoshi1:GeoSphere045
+    100002: csjiaoshi1:GeoSphere046
+    100004: csjiaoshi1:GeoSphere048
+    100006: csjiaoshi1:GeoSphere049
+    100008: csjiaoshi1:GeoSphere050
+    100010: csjiaoshi1:GeoSphere051
+    100012: csjiaoshi1:GeoSphere052
+    100014: csjiaoshi1:GeoSphere053
+    100016: csjiaoshi1:transform1
+    100018: csjiaoshi1:transform2
+    100020: csjiaoshi1:transform3
+    100022: csjiaoshi1:transform4
+    100024: csjiaoshi1:transform5
+    100026: csjiaoshi1:transform6
+    100028: csjiaoshi1:transform7
+    100030: //RootNode
+    100032: polySurface1
+    100034: polySurface10
+    100036: polySurface11
+    100038: polySurface12
+    100040: polySurface13
+    100042: polySurface14
+    100044: polySurface15
+    100046: polySurface15 1
+    100048: polySurface16
+    100050: polySurface17
+    100052: polySurface18
+    100054: polySurface19
+    100056: polySurface2
+    100058: polySurface2 1
+    100060: polySurface20
+    100062: polySurface21
+    100064: polySurface22
+    100066: polySurface23
+    100068: polySurface23 1
+    100070: polySurface24
+    100072: polySurface25
+    100074: polySurface26
+    100076: polySurface27
+    100078: polySurface28
+    100080: polySurface29
+    100082: polySurface3
+    100084: polySurface30
+    100086: polySurface4
+    100088: polySurface5
+    100090: polySurface6
+    100092: polySurface7
+    100094: polySurface8
+    100096: polySurface8 1
+    100098: polySurface9
+    100100: transform1
+    100102: transform10
+    100104: transform11
+    100106: transform12
+    100108: transform13
+    100110: transform14
+    100112: transform15
+    100114: transform16
+    100116: transform17
+    100118: transform18
+    100120: transform19
+    100122: transform2
+    100124: transform20
+    100126: transform21
+    100128: transform22
+    100130: transform23
+    100132: transform24
+    100134: transform25
+    100136: transform26
+    100138: transform27
+    100140: transform28
+    100142: transform29
+    100144: transform3
+    100146: transform30
+    100148: transform31
+    100150: transform32
+    100152: transform33
+    100154: transform34
+    100156: transform4
+    100158: transform5
+    100160: transform6
+    100162: transform7
+    100164: transform8
+    100166: transform9
+    400000: csjiaoshi1:GeoSphere045
+    400002: csjiaoshi1:GeoSphere046
+    400004: csjiaoshi1:GeoSphere048
+    400006: csjiaoshi1:GeoSphere049
+    400008: csjiaoshi1:GeoSphere050
+    400010: csjiaoshi1:GeoSphere051
+    400012: csjiaoshi1:GeoSphere052
+    400014: csjiaoshi1:GeoSphere053
+    400016: csjiaoshi1:transform1
+    400018: csjiaoshi1:transform2
+    400020: csjiaoshi1:transform3
+    400022: csjiaoshi1:transform4
+    400024: csjiaoshi1:transform5
+    400026: csjiaoshi1:transform6
+    400028: csjiaoshi1:transform7
+    400030: //RootNode
+    400032: polySurface1
+    400034: polySurface10
+    400036: polySurface11
+    400038: polySurface12
+    400040: polySurface13
+    400042: polySurface14
+    400044: polySurface15
+    400046: polySurface15 1
+    400048: polySurface16
+    400050: polySurface17
+    400052: polySurface18
+    400054: polySurface19
+    400056: polySurface2
+    400058: polySurface2 1
+    400060: polySurface20
+    400062: polySurface21
+    400064: polySurface22
+    400066: polySurface23
+    400068: polySurface23 1
+    400070: polySurface24
+    400072: polySurface25
+    400074: polySurface26
+    400076: polySurface27
+    400078: polySurface28
+    400080: polySurface29
+    400082: polySurface3
+    400084: polySurface30
+    400086: polySurface4
+    400088: polySurface5
+    400090: polySurface6
+    400092: polySurface7
+    400094: polySurface8
+    400096: polySurface8 1
+    400098: polySurface9
+    400100: transform1
+    400102: transform10
+    400104: transform11
+    400106: transform12
+    400108: transform13
+    400110: transform14
+    400112: transform15
+    400114: transform16
+    400116: transform17
+    400118: transform18
+    400120: transform19
+    400122: transform2
+    400124: transform20
+    400126: transform21
+    400128: transform22
+    400130: transform23
+    400132: transform24
+    400134: transform25
+    400136: transform26
+    400138: transform27
+    400140: transform28
+    400142: transform29
+    400144: transform3
+    400146: transform30
+    400148: transform31
+    400150: transform32
+    400152: transform33
+    400154: transform34
+    400156: transform4
+    400158: transform5
+    400160: transform6
+    400162: transform7
+    400164: transform8
+    400166: transform9
+    2300000: polySurface23
+    3300000: polySurface23
+    4300000: polySurface23
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
