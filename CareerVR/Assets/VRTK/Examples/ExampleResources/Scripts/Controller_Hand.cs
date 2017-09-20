@@ -14,7 +14,7 @@
 
         private Transform pointerFinger;
         private Transform gripFingers;
-        private float maxRotation = 90f;
+        public float maxRotation = 8f;
         private float originalPointerRotation;
         private float originalGripRotation;
         private float targetPointerRotation;
@@ -54,7 +54,7 @@
 
         private void DoGrabOn(object sender, ControllerInteractionEventArgs e)
         {
-            targetGripRotation = maxRotation;
+            targetGripRotation = maxRotation;      
         }
 
         private void DoGrabOff(object sender, ControllerInteractionEventArgs e)
@@ -75,7 +75,9 @@
         private void Update()
         {
             pointerFinger.localEulerAngles = new Vector3(targetPointerRotation, 0f, 0f);
-            gripFingers.localEulerAngles = new Vector3(targetGripRotation, 0f, 0f);
+            Debug.Log(" pointerFinger.localEulerAngles  = " + pointerFinger.localEulerAngles);
+            gripFingers.localEulerAngles = new Vector3(-targetPointerRotation, 0f, 0f);
+            Debug.Log(" gripFingers.localEulerAngles  = " + gripFingers.localEulerAngles);
         }
     }
 }
