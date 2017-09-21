@@ -504,14 +504,34 @@ namespace VRTK
                 if (toggle && !IsGrabbed())
                 {
                     objectHighlighter.Highlight(touchHighlightColor);
+                    //Debug.Log("Highlight");
                 }
                 else
                 {
                     objectHighlighter.Unhighlight();
+                   // Debug.Log("Unhighlight");
                 }
             }
         }
 
+        /// <summary>
+        /// 用来控制是否显示UI提示信息（扩展方法）
+        /// </summary>
+        /// <param name="toggle"></param>
+        //public virtual void ToggleShowInfo(bool toggle)
+        //{
+            
+        //  {
+        //        if (toggle && !IsGrabbed())
+        //        {
+        //            GetComponent<ObjectInfo>().Show();
+        //        }
+        //        else
+        //        {
+        //            GetComponent<ObjectInfo>().Hide();
+        //        }
+        //    }
+        //}
         /// <summary>
         /// The ResetHighlighter method is used to reset the currently attached highlighter.
         /// </summary>

@@ -108,6 +108,7 @@ namespace VRTK
             if (ControllerGrabInteractableObject != null)
             {
                 ControllerGrabInteractableObject(this, e);
+                UIManager.Instance.Show(grabbedObject);
             }
         }
 
@@ -124,6 +125,7 @@ namespace VRTK
             if (ControllerUngrabInteractableObject != null)
             {
                 ControllerUngrabInteractableObject(this, e);
+                UIManager.Instance.Hide();
             }
         }
 

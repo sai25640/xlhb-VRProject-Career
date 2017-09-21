@@ -12,6 +12,8 @@ TagManager:
   - Torso
   - Arm
   - Leg
+  - Crystal
+  - Rhodochrosite
   layers:
   - Default
   - TransparentFX

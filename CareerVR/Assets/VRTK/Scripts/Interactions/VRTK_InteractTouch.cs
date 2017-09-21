@@ -321,6 +321,7 @@ namespace VRTK
                 StoreTouchedObjectColliders(collider);
 
                 touchedObjectScript.ToggleHighlight(true);
+                //touchedObjectScript.ToggleShowInfo(true);
                 ToggleControllerVisibility(false);
                 CheckRumbleController(touchedObjectScript);
                 touchedObjectScript.StartTouching(this);
@@ -456,6 +457,7 @@ namespace VRTK
                     if (!untouchedObjectScript.IsTouched())
                     {
                         untouchedObjectScript.ToggleHighlight(false);
+                        //untouchedObjectScript.ToggleShowInfo(false);
                     }
                 }
             }
