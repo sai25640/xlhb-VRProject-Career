@@ -987,6 +987,19 @@ namespace VRTK
         protected virtual GameObject InstantiateColliderContainer(GameObject objectToClone, string name, Transform parent)
         {
             GameObject generatedContainer = Instantiate(objectToClone, parent);
+            //Debug.Log("generatedContainer_Postion =" + generatedContainer.transform.position);
+            generatedContainer.name = VRTK_SharedMethods.GenerateVRTKObjectName(true, name);
+            VRTK_PlayerObject.SetPlayerObject(generatedContainer, VRTK_PlayerObject.ObjectTypes.Collider);
+
+            return generatedContainer;
+        }
+
+        protected virtual GameObject InstantiateColliderContainerNotClone(GameObject objectToClone, string name, Transform parent)
+        {
+            GameObject generatedContainer = Instantiate(objectToClone, parent);
+            Destroy(objectToClone);
+            //Debug.Log("generatedContainer_Postion =" + generatedContainer.transform.position);
+            generatedContainer.transform.parent = parent;
             generatedContainer.name = VRTK_SharedMethods.GenerateVRTKObjectName(true, name);
             VRTK_PlayerObject.SetPlayerObject(generatedContainer, VRTK_PlayerObject.ObjectTypes.Collider);
 
@@ -1023,7 +1036,8 @@ namespace VRTK
             {
                 if (customBodyColliderContainer != null)
                 {
-                    bodyColliderContainer = InstantiateColliderContainer(customBodyColliderContainer, BODY_COLLIDER_CONTAINER_NAME, playArea);
+                    //bodyColliderContainer = InstantiateColliderContainer(customBodyColliderContainer, BODY_COLLIDER_CONTAINER_NAME, playArea);
+                    bodyColliderContainer = InstantiateColliderContainerNotClone(customBodyColliderContainer, BODY_COLLIDER_CONTAINER_NAME, playArea);
                     bodyCollider = bodyColliderContainer.GetComponent<CapsuleCollider>();
                 }
                 else

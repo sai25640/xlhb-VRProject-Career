@@ -9,51 +9,51 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1537183165893490}
+  m_RootGameObject: {fileID: 1172353233771800}
   m_IsPrefabParent: 1
---- !u!1 &1537183165893490
+--- !u!1 &1172353233771800
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 4589158570270220}
-  - component: {fileID: 33047213385277342}
-  - component: {fileID: 23761565380738848}
-  - component: {fileID: 95454462980483524}
-  - component: {fileID: 114514430818533420}
-  - component: {fileID: 114323604942912026}
-  - component: {fileID: 114730552460324292}
-  - component: {fileID: 65888864898786584}
-  - component: {fileID: 54660895903213776}
-  - component: {fileID: 114174748461902030}
+  - component: {fileID: 4390276377439080}
+  - component: {fileID: 33252901783009468}
+  - component: {fileID: 23080930695812000}
+  - component: {fileID: 95850197688049792}
+  - component: {fileID: 114419496890622922}
+  - component: {fileID: 114337663510484094}
+  - component: {fileID: 114293869583109704}
+  - component: {fileID: 65791457932318114}
+  - component: {fileID: 114000707861020396}
+  - component: {fileID: 54071217918747400}
   m_Layer: 0
-  m_Name: dujvshi_1
+  m_Name: dujvshi_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4589158570270220
+--- !u!4 &4390276377439080
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1537183165893490}
+  m_GameObject: {fileID: 1172353233771800}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.35, y: 3.52, z: 42.37}
+  m_LocalPosition: {x: -9.81, y: 3.52, z: 43.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!23 &23761565380738848
+--- !u!23 &23080930695812000
 MeshRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1537183165893490}
+  m_GameObject: {fileID: 1172353233771800}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -80,19 +80,19 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!33 &33047213385277342
+--- !u!33 &33252901783009468
 MeshFilter:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1537183165893490}
-  m_Mesh: {fileID: 4300000, guid: ac2f05743f5f05a40860961aa7e292a4, type: 3}
---- !u!54 &54660895903213776
+  m_GameObject: {fileID: 1172353233771800}
+  m_Mesh: {fileID: 4300000, guid: f1bcadb2474da0b458691a97158631d6, type: 3}
+--- !u!54 &54071217918747400
 Rigidbody:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1537183165893490}
+  m_GameObject: {fileID: 1172353233771800}
   serializedVersion: 2
   m_Mass: 1
   m_Drag: 0
@@ -102,27 +102,27 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!65 &65888864898786584
+--- !u!65 &65791457932318114
 BoxCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1537183165893490}
+  m_GameObject: {fileID: 1172353233771800}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.54, y: 0.4742758, z: 0.52}
-  m_Center: {x: -0.01, y: 0.25, z: -0.02}
---- !u!95 &95454462980483524
+  m_Size: {x: 0.96785814, y: 0.34985062, z: 1.0966036}
+  m_Center: {x: 0.06929517, y: 0.18, z: 0.06696526}
+--- !u!95 &95850197688049792
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1537183165893490}
+  m_GameObject: {fileID: 1172353233771800}
   m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: ac2f05743f5f05a40860961aa7e292a4, type: 3}
+  m_Avatar: {fileID: 9000000, guid: f1bcadb2474da0b458691a97158631d6, type: 3}
   m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_UpdateMode: 0
@@ -131,25 +131,46 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!114 &114174748461902030
+--- !u!114 &114000707861020396
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1537183165893490}
+  m_GameObject: {fileID: 1172353233771800}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 044ff3c461f42724194bbef34102979b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  info: "\u72EC\u5C45\u77F3  \u72EC\u5C45\u77F3\u6210\u5206\u4E3A\uFF08Ce\uFF0CLa\uFF0CNd\uFF0CTh\uFF09\u3014PO4\u3015\u7684\u78F7\u9178\u76D0\u77FF\u7269\u3002\u72EC\u5C45\u77F3\u662F\u7A00\u571F\u91D1\u5C5E\u77FF\u7684\u4E3B\u8981\u77FF\u7269\u4E4B\u4E00\uFF0C
-    \u5E38\u542B\u948D\u3001\u9506\u7B49\u3002\u5728\u7D2B\u5916\u5149\u7167\u5C04\u4E0B\u53D1\u9C9C\u7EFF\u8272\u8367\u5149\u3002\u56E0\u5E38\u542B\u94C0\u3001\u948D\u3001\u956D\uFF0C\u6545\u5177\u6709\u653E\u5C04\u6027\u3002"
---- !u!114 &114323604942912026
+  info: " \u72EC\u5C45\u77F3  \u7ECF\u6D4E\u4EF7\u503C\uFF1A\u7A00\u571F\u5143\u7D20\u5728\u6709\u8272\u51B6\u91D1\u3001\u73BB\u7483\u548C\u9676\u74F7\u751F\u4EA7\u3001\u7535\u5B50\u3001\u7535\u6C14\u7167\u660E\u3001\u7535\u89C6\u548C\u6FC0\u5149\u6280\u672F\u3001
+    \u5316\u5DE5\u5DE5\u4E1A\u3001\u533B\u7597\u548C\u519C\u4E1A\u751F\u4EA7\u9886\u57DF\u4E2D\u5177\u6709\u5E7F\u6CDB\u8FD0\u7528\u4EF7\u503C\u3002\u5728\u4E0E\u82B1\u5C97\u5CA9\u6709\u5173\u7684\u70ED\u6DB2\u77FF\u5E8A\u4E2D\u4E5F\u6709\u4EA7\u51FA\u3002
+    \u72EC\u5C45\u77F3\u662F\u63D0\u53D6\u94C8\u65CF\u7A00\u571F\u5143\u7D20\u7684\u91CD\u8981\u77FF\u7269\u539F\u6599\u3002
+    \u7531\u4E8E\u6210\u5206\u4E2D\u7ECF\u5E38\u6709\u948D\u4EE3\u66FF\u94C8\uFF0CThO2\u542B\u91CF\u6700\u591A\u53EF\u8FBE30%\uFF0C\u5728\u63D0\u53D6\u94C8\u65F6\uFF0C\u53EF\u7EFC\u5408\u63D0\u53D6\u948D\u3002"
+--- !u!114 &114293869583109704
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1537183165893490}
+  m_GameObject: {fileID: 1172353233771800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8afa0b205791c9f4496bf2814aeac078, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  precisionGrab: 1
+  rightSnapHandle: {fileID: 0}
+  leftSnapHandle: {fileID: 0}
+  throwVelocityWithAttachDistance: 0
+  throwMultiplier: 1
+  onGrabCollisionDelay: 0
+  destroyImmediatelyOnThrow: 1
+  breakForce: 1500
+--- !u!114 &114337663510484094
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1172353233771800}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c08517e04830d6d44a13c5ea5f574181, type: 3}
@@ -161,12 +182,12 @@ MonoBehaviour:
   customOutlineModels: []
   customOutlineModelPaths: []
   enableSubmeshHighlight: 0
---- !u!114 &114514430818533420
+--- !u!114 &114419496890622922
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1537183165893490}
+  m_GameObject: {fileID: 1172353233771800}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a3abaf4521bf2344ea21ed3020b98eb2, type: 3}
@@ -191,22 +212,3 @@ MonoBehaviour:
   useOverrideButton: 3
   allowedUseControllers: 0
   usingState: 0
---- !u!114 &114730552460324292
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1537183165893490}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8afa0b205791c9f4496bf2814aeac078, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  precisionGrab: 1
-  rightSnapHandle: {fileID: 0}
-  leftSnapHandle: {fileID: 0}
-  throwVelocityWithAttachDistance: 0
-  throwMultiplier: 1
-  onGrabCollisionDelay: 0
-  destroyImmediatelyOnThrow: 1
-  breakForce: 1500

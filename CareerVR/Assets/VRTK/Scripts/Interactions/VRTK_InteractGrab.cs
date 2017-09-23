@@ -108,7 +108,18 @@ namespace VRTK
             if (ControllerGrabInteractableObject != null)
             {
                 ControllerGrabInteractableObject(this, e);
-                UIManager.Instance.Show(grabbedObject);
+
+                //显示水晶的信息
+                UIManager.Instance.Show(grabbedObject); Debug.Log("grabbedObject.name = "+grabbedObject.name);
+                //将水晶的Rigidbody设置成受重力影响
+                Rigidbody rg = grabbedObject.GetComponent<Rigidbody>();
+                Debug.Log("rg = " + rg);
+                if (rg != null && rg.useGravity == false)
+                {
+                    rg.useGravity = true;
+                    Debug.Log("rg.useGravity = " + rg.useGravity);
+                    
+                }
             }
         }
 
