@@ -1,0 +1,270 @@
+fileFormatVersion: 2
+guid: 918759290f211e945b1b69afd7d4d301
+timeCreated: 1506065313
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: pangxie_mod
+    100002: //RootNode
+    100004: S_PX_BONE00
+    100006: S_PX_BONE01
+    100008: S_PX_BONE02
+    100010: S_PX_BONE03
+    100012: S_PX_BONE04
+    100014: S_PX_BONE05
+    100016: S_PX_BONE06
+    100018: S_PX_BONE07
+    100020: S_PX_BONE08
+    100022: S_PX_BONE09
+    100024: S_PX_BONE10
+    100026: S_PX_BONE11
+    100028: S_PX_BONE12
+    100030: S_PX_BONE13
+    100032: S_PX_BONE14
+    100034: S_PX_BONE15
+    100036: S_PX_BONE16
+    100038: S_PX_BONE17
+    100040: S_PX_BONE18
+    100042: S_PX_BONE19
+    100044: S_PX_BONE20
+    100046: S_PX_BONE21
+    100048: S_PX_BONE22
+    100050: S_PX_BONE23
+    100052: S_PX_BONE24
+    100054: S_PX_BONE25
+    100056: S_PX_BONE26
+    100058: S_PX_BONE27
+    100060: S_PX_BONE28
+    100062: S_PX_BONE29
+    100064: S_PX_BONE30
+    100066: S_PX_BONE31
+    100068: S_PX_BONE32
+    100070: S_PX_BONE33
+    100072: S_PX_BONE34
+    100074: S_PX_BONE35
+    100076: S_PX_BONE36
+    100078: S_PX_BONE37
+    400000: pangxie_mod
+    400002: //RootNode
+    400004: S_PX_BONE00
+    400006: S_PX_BONE01
+    400008: S_PX_BONE02
+    400010: S_PX_BONE03
+    400012: S_PX_BONE04
+    400014: S_PX_BONE05
+    400016: S_PX_BONE06
+    400018: S_PX_BONE07
+    400020: S_PX_BONE08
+    400022: S_PX_BONE09
+    400024: S_PX_BONE10
+    400026: S_PX_BONE11
+    400028: S_PX_BONE12
+    400030: S_PX_BONE13
+    400032: S_PX_BONE14
+    400034: S_PX_BONE15
+    400036: S_PX_BONE16
+    400038: S_PX_BONE17
+    400040: S_PX_BONE18
+    400042: S_PX_BONE19
+    400044: S_PX_BONE20
+    400046: S_PX_BONE21
+    400048: S_PX_BONE22
+    400050: S_PX_BONE23
+    400052: S_PX_BONE24
+    400054: S_PX_BONE25
+    400056: S_PX_BONE26
+    400058: S_PX_BONE27
+    400060: S_PX_BONE28
+    400062: S_PX_BONE29
+    400064: S_PX_BONE30
+    400066: S_PX_BONE31
+    400068: S_PX_BONE32
+    400070: S_PX_BONE33
+    400072: S_PX_BONE34
+    400074: S_PX_BONE35
+    400076: S_PX_BONE36
+    400078: S_PX_BONE37
+    4300000: pangxie_mod
+    7400000: Take 001
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: pangxie_mod
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 0
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 2
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 75
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: pangxie_mod
+        weight: 1
+      - path: S_PX_BONE00
+        weight: 1
+      - path: S_PX_BONE00/S_PX_BONE01
+        weight: 1
+      - path: S_PX_BONE00/S_PX_BONE04
+        weight: 1
+      - path: S_PX_BONE00/S_PX_BONE04/S_PX_BONE06
+        weight: 1
+      - path: S_PX_BONE00/S_PX_BONE04/S_PX_BONE06/S_PX_BONE08
+        weight: 1
+      - path: S_PX_BONE00/S_PX_BONE05
+        weight: 1
+      - path: S_PX_BONE00/S_PX_BONE05/S_PX_BONE07
+        weight: 1
+      - path: S_PX_BONE00/S_PX_BONE05/S_PX_BONE07/S_PX_BONE09
+        weight: 1
+      - path: S_PX_BONE00/S_PX_BONE10
+        weight: 1
+      - path: S_PX_BONE00/S_PX_BONE10/S_PX_BONE12
+        weight: 1
+      - path: S_PX_BONE00/S_PX_BONE10/S_PX_BONE12/S_PX_BONE14
+        weight: 1
+      - path: S_PX_BONE00/S_PX_BONE11
+        weight: 1
+      - path: S_PX_BONE00/S_PX_BONE11/S_PX_BONE13
+        weight: 1
+      - path: S_PX_BONE00/S_PX_BONE11/S_PX_BONE13/S_PX_BONE15
+        weight: 1
+      - path: S_PX_BONE00/S_PX_BONE16
+        weight: 1
+      - path: S_PX_BONE00/S_PX_BONE16/S_PX_BONE18
+        weight: 1
+      - path: S_PX_BONE00/S_PX_BONE16/S_PX_BONE18/S_PX_BONE02
+        weight: 1
+      - path: S_PX_BONE00/S_PX_BONE17
+        weight: 1
+      - path: S_PX_BONE00/S_PX_BONE17/S_PX_BONE19
+        weight: 1
+      - path: S_PX_BONE00/S_PX_BONE17/S_PX_BONE19/S_PX_BONE03
+        weight: 1
+      - path: S_PX_BONE00/S_PX_BONE22
+        weight: 1
+      - path: S_PX_BONE00/S_PX_BONE22/S_PX_BONE24
+        weight: 1
+      - path: S_PX_BONE00/S_PX_BONE22/S_PX_BONE24/S_PX_BONE26
+        weight: 1
+      - path: S_PX_BONE00/S_PX_BONE23
+        weight: 1
+      - path: S_PX_BONE00/S_PX_BONE23/S_PX_BONE25
+        weight: 1
+      - path: S_PX_BONE00/S_PX_BONE23/S_PX_BONE25/S_PX_BONE27
+        weight: 1
+      - path: S_PX_BONE00/S_PX_BONE28
+        weight: 1
+      - path: S_PX_BONE00/S_PX_BONE28/S_PX_BONE30
+        weight: 1
+      - path: S_PX_BONE00/S_PX_BONE28/S_PX_BONE30/S_PX_BONE20
+        weight: 1
+      - path: S_PX_BONE00/S_PX_BONE28/S_PX_BONE30/S_PX_BONE20/S_PX_BONE32
+        weight: 1
+      - path: S_PX_BONE00/S_PX_BONE28/S_PX_BONE30/S_PX_BONE20/S_PX_BONE34
+        weight: 1
+      - path: S_PX_BONE00/S_PX_BONE28/S_PX_BONE30/S_PX_BONE20/S_PX_BONE34/S_PX_BONE36
+        weight: 1
+      - path: S_PX_BONE00/S_PX_BONE29
+        weight: 1
+      - path: S_PX_BONE00/S_PX_BONE29/S_PX_BONE31
+        weight: 1
+      - path: S_PX_BONE00/S_PX_BONE29/S_PX_BONE31/S_PX_BONE21
+        weight: 1
+      - path: S_PX_BONE00/S_PX_BONE29/S_PX_BONE31/S_PX_BONE21/S_PX_BONE33
+        weight: 1
+      - path: S_PX_BONE00/S_PX_BONE29/S_PX_BONE31/S_PX_BONE21/S_PX_BONE35
+        weight: 1
+      - path: S_PX_BONE00/S_PX_BONE29/S_PX_BONE31/S_PX_BONE21/S_PX_BONE35/S_PX_BONE37
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
