@@ -24,8 +24,8 @@
         {
             GetComponentInParent<VRTK_InteractGrab>().GrabButtonPressed += DoGrabOn;
             GetComponentInParent<VRTK_InteractGrab>().GrabButtonReleased += DoGrabOff;
-            GetComponentInParent<VRTK_InteractUse>().UseButtonPressed += DoUseOn;
-            GetComponentInParent<VRTK_InteractUse>().UseButtonReleased += DoUseOff;
+            //GetComponentInParent<VRTK_InteractUse>().UseButtonPressed += DoUseOn;
+            //GetComponentInParent<VRTK_InteractUse>().UseButtonReleased += DoUseOff;
 
             var handContainer = "ModelPieces";
             pointerFinger = transform.Find(handContainer + "/PointerFingerContainer");
@@ -35,8 +35,8 @@
             {
                 InversePosition(pointerFinger);
                 InversePosition(gripFingers);
-                InversePosition(transform.Find(handContainer + "/Palm"));
-                InversePosition(transform.Find(handContainer + "/Thumb"));
+                //InversePosition(transform.Find(handContainer + "/Palm"));
+                //InversePosition(transform.Find(handContainer + "/Thumb"));
             }
 
             originalPointerRotation = pointerFinger.localEulerAngles.y;
