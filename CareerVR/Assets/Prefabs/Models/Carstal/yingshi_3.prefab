@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 95450563837041074}
   m_Layer: 0
   m_Name: yingshi_3
-  m_TagString: Untagged
+  m_TagString: Crystal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

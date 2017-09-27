@@ -1155,7 +1155,7 @@ GameObject:
   - component: {fileID: 114165401834625636}
   m_Layer: 0
   m_Name: mengkuangshi_2
-  m_TagString: Untagged
+  m_TagString: Crystal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

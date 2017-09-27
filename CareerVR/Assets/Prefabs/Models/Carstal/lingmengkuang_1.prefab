@@ -30,7 +30,7 @@ GameObject:
   - component: {fileID: 114343770150348528}
   m_Layer: 0
   m_Name: lingmengkuang_1
-  m_TagString: Untagged
+  m_TagString: Crystal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

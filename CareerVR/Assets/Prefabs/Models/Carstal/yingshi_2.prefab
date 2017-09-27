@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 95381709838408466}
   m_Layer: 0
   m_Name: yingshi_2
-  m_TagString: Rhodochrosite
+  m_TagString: Crystal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
