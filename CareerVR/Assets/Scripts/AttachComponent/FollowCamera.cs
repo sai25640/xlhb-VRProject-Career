@@ -27,7 +27,7 @@ public class FollowCamera : MonoBehaviour {
 //         }
         this.transform.forward = Vector3.ProjectOnPlane(camera.transform.forward, Vector3.up);
         //this.transform.localEulerAngles = new Vector3(0, -90f, 0);
-        this.transform.localPosition = new Vector3(camera.transform.localPosition.x , 0.618f , camera.transform.localPosition.z);
+        this.transform.localPosition = new Vector3(camera.transform.localPosition.x , 0.4f , camera.transform.localPosition.z);
         
 
     }

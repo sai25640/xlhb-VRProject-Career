@@ -6,7 +6,8 @@ public class HideSelf : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        this.transform.DOMoveY(this.transform.localPosition.y - 2f, 2f);
+        //this.transform.DOMoveY(this.transform.localPosition.y - 2f, 2f);
+        this.transform.DOScale(0.1f, 2f);
         Destroy(this.gameObject, 2f);
 	}
 	
