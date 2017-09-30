@@ -22,9 +22,21 @@ public class UIManager : GenericSingletonClass<UIManager> {
     //显示物品信息
     public void Show(GameObject go)
     {
-        
+        int max = 0;
         //随机显示UI面板信息内容
-        int random = Random.Range(0, 2);
+        switch (go.tag)
+        {
+            case "Rhodochrosite": max = 0; break;
+            case "Monazite": max = 1; break;
+            case "CombustibleIce": max = 1; break;
+            case "MetalMud": max = 0; break;
+            case "Halobolite": max = 1; break;
+            case "Magnetite": max = 1; break;
+            case "Fluorite": max = 2; break;
+            case "Crystal": max = 2; break;
+
+        }
+        int random = Random.Range(0, max);
         GameObject image = Instantiate(Resources.Load("Prefabs/UI/" + go.tag + random.ToString())) as GameObject;
        
         Debug.Log("Prefabs/UI/" + go.tag + random.ToString());
@@ -43,6 +55,7 @@ public class UIManager : GenericSingletonClass<UIManager> {
     public void Hide()
     {
         //清除UI面板信息
+        canvas.transform.GetChild(0).gameObject.AddComponent<DestroySelf>();
         canvas.transform.DetachChildren();
         canvas.SetActive(false);
     }

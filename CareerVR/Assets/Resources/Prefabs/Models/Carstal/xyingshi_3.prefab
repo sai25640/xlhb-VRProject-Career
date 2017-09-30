@@ -28,9 +28,9 @@ GameObject:
   - component: {fileID: 114357391441934280}
   - component: {fileID: 114665395455464222}
   - component: {fileID: 114948866343469648}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: xyingshi_3
-  m_TagString: Crystal
+  m_TagString: Fluorite
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

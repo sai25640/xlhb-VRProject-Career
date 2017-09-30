@@ -20,9 +20,9 @@ GameObject:
   m_Component:
   - component: {fileID: 4602981965888892}
   - component: {fileID: 95104216288765440}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: dujvshi_3
-  m_TagString: Crystal
+  m_TagString: Monazite
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43,7 +43,7 @@ GameObject:
   - component: {fileID: 65416090858399018}
   - component: {fileID: 54861320724195148}
   - component: {fileID: 114180380366596024}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: polySurface1
   m_TagString: Untagged
   m_Icon: {fileID: 0}

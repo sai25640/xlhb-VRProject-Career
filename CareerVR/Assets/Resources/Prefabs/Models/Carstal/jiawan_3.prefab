@@ -27,7 +27,7 @@ GameObject:
   - component: {fileID: 65701141211180040}
   - component: {fileID: 54290084973858840}
   - component: {fileID: 114002164850447302}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: polySurface135
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43,9 +43,9 @@ GameObject:
   m_Component:
   - component: {fileID: 4011781495880946}
   - component: {fileID: 95913880411399454}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jiawan_3
-  m_TagString: Crystal
+  m_TagString: CombustibleIce
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

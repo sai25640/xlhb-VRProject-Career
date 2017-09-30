@@ -111,7 +111,7 @@ namespace VRTK
 
                 //显示水晶的信息
                 UIManager.Instance.Show(grabbedObject);
-                Debug.Log("grabbedObject.name = "+grabbedObject.name);
+                //Debug.Log("grabbedObject.name = "+grabbedObject.name);
                 //在抓取过程中解除Collider
                 //BoxCollider bc = grabbedObject.GetComponent<BoxCollider>();
                 //bc.enabled = false;

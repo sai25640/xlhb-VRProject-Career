@@ -28,7 +28,7 @@ GameObject:
   - component: {fileID: 65721889421844290}
   - component: {fileID: 54707524206734784}
   - component: {fileID: 114982140796019276}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: shuijing_1
   m_TagString: Crystal
   m_Icon: {fileID: 0}

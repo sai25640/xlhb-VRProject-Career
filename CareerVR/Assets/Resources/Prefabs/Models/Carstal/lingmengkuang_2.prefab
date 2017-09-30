@@ -20,9 +20,9 @@ GameObject:
   m_Component:
   - component: {fileID: 4624819751979850}
   - component: {fileID: 95176036619189052}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: lingmengkuang_2
-  m_TagString: Crystal
+  m_TagString: Rhodochrosite
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43,7 +43,7 @@ GameObject:
   - component: {fileID: 114998163694171926}
   - component: {fileID: 114762643667401636}
   - component: {fileID: 114634699147793722}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: polySurface1
   m_TagString: Rhodochrosite
   m_Icon: {fileID: 0}

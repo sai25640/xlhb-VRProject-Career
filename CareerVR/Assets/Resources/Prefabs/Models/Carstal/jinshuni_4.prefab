@@ -20,9 +20,9 @@ GameObject:
   m_Component:
   - component: {fileID: 4289416645437592}
   - component: {fileID: 95163809363208536}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jinshuni_4
-  m_TagString: Crystal
+  m_TagString: MetalMud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43,7 +43,7 @@ GameObject:
   - component: {fileID: 114128071641719952}
   - component: {fileID: 114133515872559338}
   - component: {fileID: 114478964392222882}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: polySurface23
   m_TagString: Untagged
   m_Icon: {fileID: 0}

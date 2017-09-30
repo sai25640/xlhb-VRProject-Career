@@ -2,30 +2,30 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CrystalData
+public static class CrystalData
 {
 
     //菱锰矿
-    public static int rhodochrositeData = 0;
+    public static int rhodochrositeData;
 
     //独居石
-    public static int monaziteData = 0;
+    public static int monaziteData;
 
     //可燃冰
-    public static int combustibleIceData = 0;
+    public static int combustibleIceData;
 
     //金属泥
-    public static int metalMudData = 0;
+    public static int metalMudData;
 
     //锰结核
-    public static int haloboliteData = 0;
+    public static int haloboliteData;
 
     //磁铁矿
-    public static int magnetiteData = 0;
+    public static int magnetiteData;
 
     //萤石
-    public static int fluoriteData = 0;
+    public static int fluoriteData;
 
     //水晶
-    public static int crystalData = 0;
+    public static int crystalData;
 }

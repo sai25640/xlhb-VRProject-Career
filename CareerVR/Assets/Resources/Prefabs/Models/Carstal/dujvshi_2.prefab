@@ -28,9 +28,9 @@ GameObject:
   - component: {fileID: 65791457932318114}
   - component: {fileID: 114000707861020396}
   - component: {fileID: 54071217918747400}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: dujvshi_2
-  m_TagString: Crystal
+  m_TagString: Monazite
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -28,9 +28,9 @@ GameObject:
   - component: {fileID: 65914855749605604}
   - component: {fileID: 54995482524089976}
   - component: {fileID: 114343770150348528}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: lingmengkuang_1
-  m_TagString: Crystal
+  m_TagString: Rhodochrosite
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
