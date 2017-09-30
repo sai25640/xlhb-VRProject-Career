@@ -13,6 +13,12 @@ TagManager:
   - Arm
   - Leg
   - Crystal
+  - Monazite
+  - CombustibleIce
+  - MetalMud
+  - Halobolite
+  - Magnetite
+  - Fluorite
   - Rhodochrosite
   layers:
   - Default
@@ -23,7 +29,7 @@ TagManager:
   - UI
   - 
   - 
-  - 
+  - Crystal
   - 
   - 
   - 

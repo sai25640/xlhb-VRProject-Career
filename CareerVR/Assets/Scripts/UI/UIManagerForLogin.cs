@@ -8,6 +8,7 @@ public class UIManagerForLogin: MonoBehaviour
 
     public GameObject loginPanel;
     public GameObject selectScenePanel;
+    public GameObject operationTipsPanel;
 
     public void OnLoginButtonClick()
     {
@@ -17,7 +18,12 @@ public class UIManagerForLogin: MonoBehaviour
 
     public void OnDeapSeaClick()
     {
-        //Debug.Log(" OnDeapSeaClick!");
+        selectScenePanel.SetActive(false);
+        operationTipsPanel.SetActive(true);
+    }
+
+    public void OnDeapSeaOperationTips()
+    {
         SceneManager.LoadScene("DeepSea");
     }
 }

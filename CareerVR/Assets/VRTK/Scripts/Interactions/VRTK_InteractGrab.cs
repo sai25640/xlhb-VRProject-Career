@@ -134,6 +134,7 @@ namespace VRTK
                 ControllerUngrabInteractableObject(this, e);
                 //隐藏水晶信息UI界面
                 UIManager.Instance.Hide();
+
                 //将水晶的Rigidbody设置成受重力影响并且加上Collider
                 Rigidbody rg = grabbedObject.GetComponent<Rigidbody>();
                 //Debug.Log("rg = " + rg);
