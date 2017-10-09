@@ -75,4 +75,41 @@ public class UIManager : GenericSingletonClass<UIManager> {
      
     }
 
+    bool isShowOneMinute = true;
+    //显示提示1分钟界面
+    public void ShowOneMinute()
+    {
+        if (isShowOneMinute)
+        {
+            isShowOneMinute = false;
+
+            GameObject image = Instantiate(Resources.Load("Prefabs/UI/Tips_OneMinute")) as GameObject;
+
+            image.transform.parent = canvas.transform;
+            RectTransform rt = image.GetComponent<Image>().GetComponent<RectTransform>();
+            rt.anchoredPosition3D = Vector3.zero;
+            rt.localRotation = Quaternion.identity;
+            rt.localScale = Vector3.one;
+
+            canvas.SetActive(true);
+        }
+    }
+
+    //显示最终分数
+    public void ShowScore(int score)
+    {
+        GameObject image = Instantiate(Resources.Load("Prefabs/UI/Tips_Score")) as GameObject;
+
+        image.transform.parent = canvas.transform;
+        RectTransform rt = image.GetComponent<Image>().GetComponent<RectTransform>();
+        rt.anchoredPosition3D = Vector3.zero;
+        rt.localRotation = Quaternion.identity;
+        rt.localScale = Vector3.one;
+        
+        //给Text设置分数
+        image.transform.GetChild(1).GetComponent<Text>().text = score + "分";
+
+        canvas.SetActive(true);
+    }
+
 }
