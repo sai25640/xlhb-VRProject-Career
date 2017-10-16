@@ -5,7 +5,7 @@ using UnityEngine.UI;
 public class UIManager : GenericSingletonClass<UIManager> {
 
     public GameObject canvas;
-
+    public float uiScale =0.8f;
     
     void Start()
     {
@@ -45,7 +45,7 @@ public class UIManager : GenericSingletonClass<UIManager> {
         RectTransform rt = image.GetComponent<Image>().GetComponent<RectTransform>();
         rt.anchoredPosition3D = Vector3.zero;
         rt.localRotation = Quaternion.identity;
-        rt.localScale = Vector3.one;
+        rt.localScale = Vector3.one * uiScale;
       
         canvas.SetActive(true);
 
@@ -69,7 +69,7 @@ public class UIManager : GenericSingletonClass<UIManager> {
         RectTransform rt = image.GetComponent<Image>().GetComponent<RectTransform>();
         rt.anchoredPosition3D = Vector3.zero;
         rt.localRotation = Quaternion.identity;
-        rt.localScale = Vector3.one;
+        rt.localScale = Vector3.one * uiScale;
 
         canvas.SetActive(true);
      
@@ -89,7 +89,7 @@ public class UIManager : GenericSingletonClass<UIManager> {
             RectTransform rt = image.GetComponent<Image>().GetComponent<RectTransform>();
             rt.anchoredPosition3D = Vector3.zero;
             rt.localRotation = Quaternion.identity;
-            rt.localScale = Vector3.one;
+            rt.localScale = Vector3.one * uiScale;
 
             canvas.SetActive(true);
         }
@@ -104,7 +104,7 @@ public class UIManager : GenericSingletonClass<UIManager> {
         RectTransform rt = image.GetComponent<Image>().GetComponent<RectTransform>();
         rt.anchoredPosition3D = Vector3.zero;
         rt.localRotation = Quaternion.identity;
-        rt.localScale = Vector3.one;
+        rt.localScale = Vector3.one * uiScale;
         
         //给Text设置分数
         image.transform.GetChild(1).GetComponent<Text>().text = score + "分";

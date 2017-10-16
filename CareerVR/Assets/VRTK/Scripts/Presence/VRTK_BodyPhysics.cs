@@ -1018,6 +1018,21 @@ namespace VRTK
             }
         }
 
+        protected virtual void GenerateRigidbodyEx()
+        {
+            bodyRigidbody = playArea.GetComponent<Rigidbody>();
+            if (bodyRigidbody == null)
+            {
+                generateRigidbody = true;
+                bodyRigidbody = playArea.gameObject.AddComponent<Rigidbody>();
+                bodyRigidbody.mass = bodyMass;
+                bodyRigidbody.freezeRotation = true;
+                
+            }
+            bodyRigidbody.gameObject.AddComponent<AddForce>();
+            Debug.Log("GenerateRigidbodyEx name =" + bodyRigidbody.gameObject.name);
+        }
+
         protected virtual CapsuleCollider GenerateCapsuleCollider(GameObject parent, float setRadius)
         {
             CapsuleCollider foundCollider = parent.GetComponent<CapsuleCollider>();
@@ -1083,6 +1098,7 @@ namespace VRTK
             VRTK_PlayerObject.SetPlayerObject(playArea.gameObject, VRTK_PlayerObject.ObjectTypes.CameraRig);
 
             GenerateRigidbody();
+            //GenerateRigidbodyEx();
             GenerateBodyCollider();
 
             if (playArea.gameObject.layer == 0)

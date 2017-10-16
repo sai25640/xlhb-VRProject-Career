@@ -1,0 +1,247 @@
+fileFormatVersion: 2
+guid: 08968a946f6adbc40918a1f8513a96fd
+timeCreated: 1507802699
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: obj_____84
+    100002: obj_____85
+    100004: polySurface1
+    100006: qunshan1:obj_____100
+    100008: qunshan1:obj_____101
+    100010: qunshan1:obj_____107
+    100012: qunshan1:obj_____99
+    100014: shamo:_34
+    100016: shamo:_40
+    100018: shamo:_48
+    100020: shamo:_52
+    100022: shamo:_56
+    100024: shamo:_60
+    100026: shamo:_63
+    100028: shamo:_71
+    100030: shamo:_76
+    100032: shamo:obj_____100
+    100034: shamo:obj_____103
+    100036: shamo:obj_____104
+    100038: shamo:obj_____105
+    100040: shamo:obj_____106
+    100042: shamo:obj_____107
+    100044: shamo:obj_____118
+    100046: shamo:obj_____62
+    100048: shamo:obj_____70
+    100050: shamo:obj_____81
+    100052: shamo:obj_____83
+    100054: shamo:obj_____84
+    100056: shamo:obj_____85
+    100058: shamo:obj_____87
+    100060: shamo:obj_____88
+    100062: shamo:obj_____95
+    100064: shamo:obj_____96
+    100066: //RootNode
+    100068: shanti4
+    100070: transform1
+    100072: transform2
+    100074: transform3
+    400000: obj_____84
+    400002: obj_____85
+    400004: polySurface1
+    400006: qunshan1:obj_____100
+    400008: qunshan1:obj_____101
+    400010: qunshan1:obj_____107
+    400012: qunshan1:obj_____99
+    400014: shamo:_34
+    400016: shamo:_40
+    400018: shamo:_48
+    400020: shamo:_52
+    400022: shamo:_56
+    400024: shamo:_60
+    400026: shamo:_63
+    400028: shamo:_71
+    400030: shamo:_76
+    400032: shamo:obj_____100
+    400034: shamo:obj_____103
+    400036: shamo:obj_____104
+    400038: shamo:obj_____105
+    400040: shamo:obj_____106
+    400042: shamo:obj_____107
+    400044: shamo:obj_____118
+    400046: shamo:obj_____62
+    400048: shamo:obj_____70
+    400050: shamo:obj_____81
+    400052: shamo:obj_____83
+    400054: shamo:obj_____84
+    400056: shamo:obj_____85
+    400058: shamo:obj_____87
+    400060: shamo:obj_____88
+    400062: shamo:obj_____95
+    400064: shamo:obj_____96
+    400066: //RootNode
+    400068: shanti4
+    400070: transform1
+    400072: transform2
+    400074: transform3
+    2300000: polySurface1
+    2300002: qunshan1:obj_____100
+    2300004: qunshan1:obj_____101
+    2300006: qunshan1:obj_____107
+    2300008: qunshan1:obj_____99
+    2300010: shamo:_34
+    2300012: shamo:_40
+    2300014: shamo:_48
+    2300016: shamo:_52
+    2300018: shamo:_56
+    2300020: shamo:_60
+    2300022: shamo:_63
+    2300024: shamo:_71
+    2300026: shamo:_76
+    2300028: shamo:obj_____100
+    2300030: shamo:obj_____103
+    2300032: shamo:obj_____104
+    2300034: shamo:obj_____105
+    2300036: shamo:obj_____106
+    2300038: shamo:obj_____107
+    2300040: shamo:obj_____118
+    2300042: shamo:obj_____62
+    2300044: shamo:obj_____70
+    2300046: shamo:obj_____81
+    2300048: shamo:obj_____83
+    2300050: shamo:obj_____84
+    2300052: shamo:obj_____85
+    2300054: shamo:obj_____87
+    2300056: shamo:obj_____88
+    2300058: shamo:obj_____95
+    2300060: shamo:obj_____96
+    3300000: polySurface1
+    3300002: qunshan1:obj_____100
+    3300004: qunshan1:obj_____101
+    3300006: qunshan1:obj_____107
+    3300008: qunshan1:obj_____99
+    3300010: shamo:_34
+    3300012: shamo:_40
+    3300014: shamo:_48
+    3300016: shamo:_52
+    3300018: shamo:_56
+    3300020: shamo:_60
+    3300022: shamo:_63
+    3300024: shamo:_71
+    3300026: shamo:_76
+    3300028: shamo:obj_____100
+    3300030: shamo:obj_____103
+    3300032: shamo:obj_____104
+    3300034: shamo:obj_____105
+    3300036: shamo:obj_____106
+    3300038: shamo:obj_____107
+    3300040: shamo:obj_____118
+    3300042: shamo:obj_____62
+    3300044: shamo:obj_____70
+    3300046: shamo:obj_____81
+    3300048: shamo:obj_____83
+    3300050: shamo:obj_____84
+    3300052: shamo:obj_____85
+    3300054: shamo:obj_____87
+    3300056: shamo:obj_____88
+    3300058: shamo:obj_____95
+    3300060: shamo:obj_____96
+    4300000: shamo:_34
+    4300002: shamo:_40
+    4300004: shamo:_48
+    4300006: shamo:_60
+    4300008: shamo:_63
+    4300010: shamo:obj_____62
+    4300012: shamo:obj_____70
+    4300014: shamo:_56
+    4300016: shamo:_71
+    4300018: shamo:obj_____81
+    4300020: shamo:obj_____83
+    4300022: shamo:obj_____84
+    4300024: shamo:obj_____85
+    4300026: shamo:obj_____87
+    4300028: shamo:obj_____88
+    4300030: shamo:obj_____95
+    4300032: shamo:obj_____96
+    4300034: shamo:obj_____100
+    4300036: shamo:obj_____103
+    4300038: shamo:obj_____104
+    4300040: shamo:obj_____105
+    4300042: shamo:obj_____106
+    4300044: shamo:obj_____107
+    4300046: shamo:obj_____118
+    4300048: shamo:_52
+    4300050: shamo:_76
+    4300052: polySurface1
+    4300054: qunshan1:obj_____99
+    4300056: qunshan1:obj_____100
+    4300058: qunshan1:obj_____101
+    4300060: qunshan1:obj_____107
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
