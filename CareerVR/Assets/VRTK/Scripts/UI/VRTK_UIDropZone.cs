@@ -20,11 +20,14 @@ namespace VRTK
 
         public virtual void OnPointerEnter(PointerEventData eventData)
         {
+           
             if (eventData.pointerDrag)
             {
+                Debug.Log("pointerDrag :" + eventData.pointerDrag);
                 var dragItem = eventData.pointerDrag.GetComponent<VRTK_UIDraggableItem>();
                 if (dragItem && dragItem.restrictToDropZone)
                 {
+                    Debug.Log("validDropZone :" + gameObject);
                     dragItem.validDropZone = gameObject;
                     droppableItem = dragItem;
                 }
