@@ -74,8 +74,8 @@ public class Collector : MonoBehaviour
 
                     //添加自动隐藏动画脚本
                     other.gameObject.AddComponent<HideSelf>();
-
                     Debug.Log("other.tag =" + other.tag);
+
                 //更改采集数据
                 switch (other.tag)
                 {
@@ -90,16 +90,16 @@ public class Collector : MonoBehaviour
                 }
 
                 //显示采集信息
-                UIManager.Instance.ShowCollectInfo();
+                UIManagerForDeepSea.instance.ShowCollectInfo();
 
-                Debug.Log("CrystalData.rhodochrositeData = " + CrystalData.rhodochrositeData);
-                Debug.Log("CrystalData.monaziteData = " + CrystalData.monaziteData);
-                Debug.Log("CrystalData.combustibleIceData = " + CrystalData.combustibleIceData);
-                Debug.Log("CrystalData.metalMudData = " + CrystalData.metalMudData);
-                Debug.Log("CrystalData.haloboliteData = " + CrystalData.haloboliteData);
-                Debug.Log("CrystalData.magnetiteData = " + CrystalData.magnetiteData);
-                Debug.Log("CrystalData.fluoriteData = " + CrystalData.fluoriteData);
-                Debug.Log("CrystalData.crystalData = " + CrystalData.crystalData);
+                //Debug.Log("CrystalData.rhodochrositeData = " + CrystalData.rhodochrositeData);
+                //Debug.Log("CrystalData.monaziteData = " + CrystalData.monaziteData);
+                //Debug.Log("CrystalData.combustibleIceData = " + CrystalData.combustibleIceData);
+                //Debug.Log("CrystalData.metalMudData = " + CrystalData.metalMudData);
+                //Debug.Log("CrystalData.haloboliteData = " + CrystalData.haloboliteData);
+                //Debug.Log("CrystalData.magnetiteData = " + CrystalData.magnetiteData);
+                //Debug.Log("CrystalData.fluoriteData = " + CrystalData.fluoriteData);
+                //Debug.Log("CrystalData.crystalData = " + CrystalData.crystalData);
 
                 other.name = "unCollectedCrystal";
             }

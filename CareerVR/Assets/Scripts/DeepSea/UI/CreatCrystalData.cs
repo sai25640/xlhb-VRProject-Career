@@ -31,14 +31,14 @@ public class CreatCrystalData : MonoBehaviour {
         //水晶
         text7.text = CrystalData.crystalData + "千克";
 
-        Debug.Log("CrystalData.rhodochrositeData = " + CrystalData.rhodochrositeData);
-        Debug.Log("CrystalData.monaziteData = " + CrystalData.monaziteData);
-        Debug.Log("CrystalData.combustibleIceData = " + CrystalData.combustibleIceData);
-        Debug.Log("CrystalData.metalMudData = " + CrystalData.metalMudData);
-        Debug.Log("CrystalData.haloboliteData = " + CrystalData.haloboliteData);
-        Debug.Log("CrystalData.magnetiteData = " + CrystalData.magnetiteData);
-        Debug.Log("CrystalData.fluoriteData = " + CrystalData.fluoriteData);
-        Debug.Log("CrystalData.crystalData = " + CrystalData.crystalData);
+        //Debug.Log("CrystalData.rhodochrositeData = " + CrystalData.rhodochrositeData);
+        //Debug.Log("CrystalData.monaziteData = " + CrystalData.monaziteData);
+        //Debug.Log("CrystalData.combustibleIceData = " + CrystalData.combustibleIceData);
+        //Debug.Log("CrystalData.metalMudData = " + CrystalData.metalMudData);
+        //Debug.Log("CrystalData.haloboliteData = " + CrystalData.haloboliteData);
+        //Debug.Log("CrystalData.magnetiteData = " + CrystalData.magnetiteData);
+        //Debug.Log("CrystalData.fluoriteData = " + CrystalData.fluoriteData);
+        //Debug.Log("CrystalData.crystalData = " + CrystalData.crystalData);
 
     }
 

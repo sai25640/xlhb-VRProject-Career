@@ -48,7 +48,7 @@ public class MyUIDraggableItem : VRTK_UIDraggableItem
         {
             if (validDropZone != null && validDropZone != startDropZone)
             {
-                transform.SetParent(validDropZone.transform);
+                //transform.SetParent(validDropZone.transform);
                 //开始生成建筑
                 Debug.Log("开始生成建筑:" + gameObject);
                 GameObject build = Instantiate(buildPrefab, validDropZone.transform) as GameObject;
@@ -90,13 +90,13 @@ public class MyUIDraggableItem : VRTK_UIDraggableItem
 
         if (validDragEnd)
         {
-            VRTK_UIPointer pointer = GetPointer(eventData);
-            if (pointer != null)
-            {
-                pointer.OnUIPointerElementDragEnd(pointer.SetUIPointerEvent(pointer.pointerEventData.pointerPressRaycast, gameObject));
-            }        
-            OnDraggableItemDropped(SetEventPayload(validDropZone));
-            Debug.Log("validDropZone :" + validDropZone.transform);
+            //VRTK_UIPointer pointer = GetPointer(eventData);
+            //if (pointer != null)
+            //{
+            //    pointer.OnUIPointerElementDragEnd(pointer.SetUIPointerEvent(pointer.pointerEventData.pointerPressRaycast, gameObject));
+            //}        
+            //OnDraggableItemDropped(SetEventPayload(validDropZone));
+            //Debug.Log("validDropZone :" + validDropZone.transform);
             //开始生成建筑
             //Debug.Log("开始生成建筑:" + gameObject);
             //GameObject build = Instantiate(buildPrefab, validDropZone.transform) as GameObject;
@@ -105,6 +105,9 @@ public class MyUIDraggableItem : VRTK_UIDraggableItem
             //build.transform.localScale = Vector3.one * 50;
             //build.transform.localRotation = Quaternion.identity;
             //build.SetActive(true);
+            ResetElement();
+            //销毁克隆对象
+            Destroy(clone);
         }
 
         validDropZone = null;
@@ -115,12 +118,7 @@ public class MyUIDraggableItem : VRTK_UIDraggableItem
     //克隆对象
     protected void CloneElement()
     {
-        //transform.gameObject
-        //transform.position = startPosition;
-        //transform.rotation = startRotation;
-        //transform.SetParent(startParent);
-        //OnDraggableItemReset(SetEventPayload(startParent.gameObject));
-
+      
         clone = Instantiate(this.gameObject, transform);
         clone.transform.SetParent(transform.parent);
         clone.transform.position = transform.position;

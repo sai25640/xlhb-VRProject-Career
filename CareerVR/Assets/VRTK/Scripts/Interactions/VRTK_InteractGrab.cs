@@ -107,15 +107,7 @@ namespace VRTK
         {
             if (ControllerGrabInteractableObject != null)
             {
-                ControllerGrabInteractableObject(this, e);
-
-                //显示水晶的信息
-                UIManager.Instance.Show(grabbedObject);
-                //Debug.Log("grabbedObject.name = "+grabbedObject.name);
-                //在抓取过程中解除Collider
-                //BoxCollider bc = grabbedObject.GetComponent<BoxCollider>();
-                //bc.enabled = false;
-
+                ControllerGrabInteractableObject(this, e);              
             }
         }
 
@@ -132,24 +124,7 @@ namespace VRTK
             if (ControllerUngrabInteractableObject != null)
             {
                 ControllerUngrabInteractableObject(this, e);
-                //隐藏水晶信息UI界面
-                UIManager.Instance.Hide();
-
-                //将水晶的Rigidbody设置成受重力影响并且加上Collider
-                Rigidbody rg = grabbedObject.GetComponent<Rigidbody>();
-                //Debug.Log("rg = " + rg);
-                if (rg != null && rg.useGravity == false)
-                {
-                    rg.useGravity = true;
-                    //Debug.Log("rg.useGravity = " + rg.useGravity);
-
-                }
-                //BoxCollider bc = grabbedObject.GetComponent<BoxCollider>();
-                //bc.enabled = true;
-                //bc.isTrigger = true;
-
-                //将拾取的物体设置成可收集的资源
-                grabbedObject.name = "CollectedCrystal";
+               
             }
         }
 

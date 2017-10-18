@@ -36,14 +36,14 @@ public class GameManagerForDeapSea : MonoBehaviour {
         if (timer <= 1*60 && timer >0)
         {
             //显示提示1分钟界面
-            UIManager.Instance.ShowOneMinute();
+            UIManagerForDeepSea.instance.ShowOneMinute();
 
         }
         else if(timer <= 0)
         {
             //显示最后的积分面板
             ComputeScore();
-            UIManager.Instance.ShowScore(score);
+            UIManagerForDeepSea.instance.ShowScore(score);
         }
     }
 
