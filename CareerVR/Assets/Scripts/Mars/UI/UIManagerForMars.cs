@@ -9,6 +9,8 @@ public class UIManagerForMars : MonoBehaviour
     public GameObject canvas;
     public GameObject cameraRig;
     private bool canvasIsShow = false;
+    public GameObject modelController;
+    private bool modelControllerIsShow = false;
     private void Awake()
     {
         if (instance != null)
@@ -19,10 +21,6 @@ public class UIManagerForMars : MonoBehaviour
         {
             instance = this;
         }
-    }
-    private void Start()
-    {
-        //SetCanvas(false);
     }
 
     public void SetCanvas(bool show)
@@ -40,14 +38,23 @@ public class UIManagerForMars : MonoBehaviour
         return canvasIsShow;
     }
 
-    //public void HideCanvas()
-    //{
-    //    canvas.SetActive(false);
-    //}
 
-    public void OnButton1Click()
+    public void SetModelController(bool show)//GameObject touchedObject
     {
-        Debug.Log("button1");
+        //if (!touchedObject) return;
+  
+        modelController.SetActive(show);
+        modelControllerIsShow = show;
+
+        //同步跟随cameraRig的位置          
+        modelController.transform.position = new Vector3(cameraRig.transform.position.x , 1.5f, cameraRig.transform.position.z);
+        modelController.transform.forward = Vector3.ProjectOnPlane(Camera.main.transform.forward, Vector3.up);
+
+
     }
 
+    public bool ModelControllerIsShow()
+    {
+        return modelControllerIsShow;
+    }
 }

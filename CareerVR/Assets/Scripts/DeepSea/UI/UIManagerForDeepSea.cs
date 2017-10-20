@@ -84,7 +84,7 @@ public class UIManagerForDeepSea : MonoBehaviour {
         {
             isShowOneMinute = false;
 
-            GameObject image = Instantiate(Resources.Load("Prefabs/UI/Tips_OneMinute")) as GameObject;
+            GameObject image = Instantiate(Resources.Load("Prefabs/UI/DeepSea/Tips_OneMinute")) as GameObject;
 
             image.transform.parent = canvas.transform;
             RectTransform rt = image.GetComponent<Image>().GetComponent<RectTransform>();
@@ -99,7 +99,7 @@ public class UIManagerForDeepSea : MonoBehaviour {
     //显示最终分数
     public void ShowScore(int score)
     {
-        GameObject image = Instantiate(Resources.Load("Prefabs/UI/Tips_Score")) as GameObject;
+        GameObject image = Instantiate(Resources.Load("Prefabs/UI/DeepSea/Tips_Score")) as GameObject;
 
         image.transform.parent = canvas.transform;
         RectTransform rt = image.GetComponent<Image>().GetComponent<RectTransform>();

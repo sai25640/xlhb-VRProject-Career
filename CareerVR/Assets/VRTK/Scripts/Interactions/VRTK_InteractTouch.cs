@@ -100,6 +100,7 @@ namespace VRTK
             {
                 ControllerTouchInteractableObject(this, e);
             }
+
         }
 
         public virtual void OnControllerStartUntouchInteractableObject(ObjectInteractEventArgs e)
