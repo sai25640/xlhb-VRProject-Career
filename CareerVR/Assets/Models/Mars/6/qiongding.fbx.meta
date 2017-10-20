@@ -1,0 +1,200 @@
+fileFormatVersion: 2
+guid: 0a7ed27e467885c41bea5653d7f8c4d8
+timeCreated: 1508470193
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: IT_20171019_1725:IT_20171019_1725:polySurface2
+    100002: IT_20171019_1725:IT_20171019_1725:pSphere2
+    100004: IT_20171019_1725:IT_20171019_1725:pTorus30
+    100006: IT_20171019_1725:IT_20171019_1725:pTorus31
+    100008: IT_20171019_1725:IT_20171019_1725:transform1
+    100010: IT_20171019_1725:IT_20171019_1725:transform10
+    100012: IT_20171019_1725:IT_20171019_1725:transform11
+    100014: IT_20171019_1725:IT_20171019_1725:transform12
+    100016: IT_20171019_1725:IT_20171019_1725:transform13
+    100018: IT_20171019_1725:IT_20171019_1725:transform2
+    100020: IT_20171019_1725:IT_20171019_1725:transform3
+    100022: IT_20171019_1725:IT_20171019_1725:transform4
+    100024: IT_20171019_1725:IT_20171019_1725:transform5
+    100026: IT_20171019_1725:IT_20171019_1725:transform6
+    100028: IT_20171019_1725:IT_20171019_1725:transform7
+    100030: IT_20171019_1725:IT_20171019_1725:transform8
+    100032: IT_20171019_1725:IT_20171019_1725:transform9
+    100034: IT_20171019_1725:pCube40
+    100036: IT_20171019_1725:pCube41
+    100038: IT_20171019_1725:pCube42
+    100040: IT_20171019_1725:pCube73
+    100042: IT_20171019_1725:pCylinder37
+    100044: IT_20171019_1725:pCylinder38
+    100046: IT_20171019_1725:pCylinder39
+    100048: IT_20171019_1725:pCylinder40
+    100050: IT_20171019_1725:polySurface2
+    100052: IT_20171019_1725:polySurface3
+    100054: IT_20171019_1725:polySurface4
+    100056: IT_20171019_1725:polySurface5
+    100058: IT_20171019_1725:polySurface5 1
+    100060: IT_20171019_1725:polySurface6
+    100062: IT_20171019_1725:polySurface7
+    100064: IT_20171019_1725:pSphere1
+    100066: IT_20171019_1725:pSphere2
+    100068: IT_20171019_1725:pTorus24
+    100070: IT_20171019_1725:pTorus25
+    100072: IT_20171019_1725:pTorus26
+    100074: IT_20171019_1725:pTorus27
+    100076: IT_20171019_1725:pTorus28
+    100078: IT_20171019_1725:pTorus29
+    100080: IT_20171019_1725:pTorus30
+    100082: IT_20171019_1725:pTorus31
+    100084: IT_20171019_1725:transform130
+    100086: IT_20171019_1725:transform131
+    100088: IT_20171019_1725:transform132
+    100090: IT_20171019_1725:transform133
+    100092: IT_20171019_1725:transform134
+    100094: IT_20171019_1725:transform135
+    100096: IT_20171019_1725:transform136
+    100098: IT_20171019_1725:transform58
+    100100: IT_20171019_1725:transform59
+    100102: IT_20171019_1725:transform60
+    100104: IT_20171019_1725:transform61
+    100106: IT_20171019_1725:transform62
+    100108: IT_20171019_1725:transform63
+    100110: IT_20171019_1725:transform64
+    100112: IT_20171019_1725:transform65
+    100114: //RootNode
+    400000: IT_20171019_1725:IT_20171019_1725:polySurface2
+    400002: IT_20171019_1725:IT_20171019_1725:pSphere2
+    400004: IT_20171019_1725:IT_20171019_1725:pTorus30
+    400006: IT_20171019_1725:IT_20171019_1725:pTorus31
+    400008: IT_20171019_1725:IT_20171019_1725:transform1
+    400010: IT_20171019_1725:IT_20171019_1725:transform10
+    400012: IT_20171019_1725:IT_20171019_1725:transform11
+    400014: IT_20171019_1725:IT_20171019_1725:transform12
+    400016: IT_20171019_1725:IT_20171019_1725:transform13
+    400018: IT_20171019_1725:IT_20171019_1725:transform2
+    400020: IT_20171019_1725:IT_20171019_1725:transform3
+    400022: IT_20171019_1725:IT_20171019_1725:transform4
+    400024: IT_20171019_1725:IT_20171019_1725:transform5
+    400026: IT_20171019_1725:IT_20171019_1725:transform6
+    400028: IT_20171019_1725:IT_20171019_1725:transform7
+    400030: IT_20171019_1725:IT_20171019_1725:transform8
+    400032: IT_20171019_1725:IT_20171019_1725:transform9
+    400034: IT_20171019_1725:pCube40
+    400036: IT_20171019_1725:pCube41
+    400038: IT_20171019_1725:pCube42
+    400040: IT_20171019_1725:pCube73
+    400042: IT_20171019_1725:pCylinder37
+    400044: IT_20171019_1725:pCylinder38
+    400046: IT_20171019_1725:pCylinder39
+    400048: IT_20171019_1725:pCylinder40
+    400050: IT_20171019_1725:polySurface2
+    400052: IT_20171019_1725:polySurface3
+    400054: IT_20171019_1725:polySurface4
+    400056: IT_20171019_1725:polySurface5
+    400058: IT_20171019_1725:polySurface5 1
+    400060: IT_20171019_1725:polySurface6
+    400062: IT_20171019_1725:polySurface7
+    400064: IT_20171019_1725:pSphere1
+    400066: IT_20171019_1725:pSphere2
+    400068: IT_20171019_1725:pTorus24
+    400070: IT_20171019_1725:pTorus25
+    400072: IT_20171019_1725:pTorus26
+    400074: IT_20171019_1725:pTorus27
+    400076: IT_20171019_1725:pTorus28
+    400078: IT_20171019_1725:pTorus29
+    400080: IT_20171019_1725:pTorus30
+    400082: IT_20171019_1725:pTorus31
+    400084: IT_20171019_1725:transform130
+    400086: IT_20171019_1725:transform131
+    400088: IT_20171019_1725:transform132
+    400090: IT_20171019_1725:transform133
+    400092: IT_20171019_1725:transform134
+    400094: IT_20171019_1725:transform135
+    400096: IT_20171019_1725:transform136
+    400098: IT_20171019_1725:transform58
+    400100: IT_20171019_1725:transform59
+    400102: IT_20171019_1725:transform60
+    400104: IT_20171019_1725:transform61
+    400106: IT_20171019_1725:transform62
+    400108: IT_20171019_1725:transform63
+    400110: IT_20171019_1725:transform64
+    400112: IT_20171019_1725:transform65
+    400114: //RootNode
+    2300000: IT_20171019_1725:IT_20171019_1725:pSphere2
+    2300002: //RootNode
+    3300000: IT_20171019_1725:IT_20171019_1725:pSphere2
+    3300002: //RootNode
+    4300000: IT_20171019_1725:IT_20171019_1725:pSphere2
+    4300002: polySurface1
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

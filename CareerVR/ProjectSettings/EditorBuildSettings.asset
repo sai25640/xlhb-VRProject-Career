@@ -12,5 +12,8 @@ EditorBuildSettings:
     path: Assets/Scenes/DeepSea.unity
     guid: cd5c6e75c54242f4a880b241790f04d6
   - enabled: 1
-    path: Assets/Scenes/Mars.unity
+    path: Assets/Scenes/Space.unity
     guid: 6b77908e08bb1b64292769061fcd3cee
+  - enabled: 1
+    path: Assets/Scenes/Mars.unity
+    guid: 00000000000000000000000000000000

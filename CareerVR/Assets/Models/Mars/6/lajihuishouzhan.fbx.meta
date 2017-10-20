@@ -1,0 +1,297 @@
+fileFormatVersion: 2
+guid: 7d1ed203113ed9f48ad27e1d3d02cf58
+timeCreated: 1508470194
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: IT_20171016_1046:IT_20171016_1046:IT_20171016_1046:IT_20171016_1046:polySurface21
+    100002: IT_20171016_1046:IT_20171016_1046:IT_20171016_1046:IT_20171016_1046:transform11
+    100004: IT_20171016_1046:IT_20171016_1046:IT_20171016_1046:IT_20171016_1046:transform12
+    100006: IT_20171016_1046:IT_20171016_1046:IT_20171016_1046:IT_20171016_1046:transform13
+    100008: IT_20171016_1046:IT_20171016_1046:IT_20171016_1046:IT_20171016_1046:transform14
+    100010: IT_20171016_1046:IT_20171016_1046:IT_20171016_1046:IT_20171016_1046:transform15
+    100012: IT_20171016_1046:IT_20171016_1046:IT_20171016_1046:IT_20171016_1046:transform16
+    100014: IT_20171016_1046:IT_20171016_1046:IT_20171016_1046:IT_20171016_1046:transform17
+    100016: IT_20171016_1046:IT_20171016_1046:IT_20171016_1046:IT_20171016_1046:transform18
+    100018: IT_20171016_1046:IT_20171016_1046:IT_20171016_1046:IT_20171016_1046:transform19
+    100020: IT_20171016_1046:IT_20171016_1046:IT_20171016_1046:IT_20171016_1046:transform20
+    100022: IT_20171016_1046:IT_20171016_1046:IT_20171016_1046:pCube12
+    100024: IT_20171016_1046:IT_20171016_1046:IT_20171016_1046:transform1
+    100026: IT_20171016_1046:IT_20171016_1046:IT_20171016_1046:transform2
+    100028: IT_20171016_1046:IT_20171016_1046:IT_20171016_1046:transform3
+    100030: IT_20171016_1046:IT_20171016_1046:pCube10
+    100032: IT_20171016_1046:IT_20171016_1046:pCube3
+    100034: IT_20171016_1046:IT_20171016_1046:polySurface12
+    100036: IT_20171016_1046:IT_20171016_1046:polySurface13
+    100038: IT_20171016_1046:IT_20171016_1046:polySurface13 1
+    100040: IT_20171016_1046:IT_20171016_1046:polySurface14
+    100042: IT_20171016_1046:IT_20171016_1046:polySurface15
+    100044: IT_20171016_1046:IT_20171016_1046:polySurface15 1
+    100046: IT_20171016_1046:IT_20171016_1046:polySurface16
+    100048: IT_20171016_1046:IT_20171016_1046:polySurface16 1
+    100050: IT_20171016_1046:IT_20171016_1046:polySurface17
+    100052: IT_20171016_1046:IT_20171016_1046:polySurface18
+    100054: IT_20171016_1046:IT_20171016_1046:polySurface19
+    100056: IT_20171016_1046:IT_20171016_1046:polySurface21
+    100058: IT_20171016_1046:IT_20171016_1046:polySurface22
+    100060: IT_20171016_1046:IT_20171016_1046:polySurface23
+    100062: IT_20171016_1046:IT_20171016_1046:polySurface24
+    100064: IT_20171016_1046:IT_20171016_1046:polySurface25
+    100066: IT_20171016_1046:IT_20171016_1046:polySurface26
+    100068: IT_20171016_1046:IT_20171016_1046:polySurface27
+    100070: IT_20171016_1046:IT_20171016_1046:polySurface28
+    100072: IT_20171016_1046:IT_20171016_1046:polySurface29
+    100074: IT_20171016_1046:IT_20171016_1046:polySurface30
+    100076: IT_20171016_1046:IT_20171016_1046:transform3
+    100078: IT_20171016_1046:pCube10
+    100080: IT_20171016_1046:pCube12
+    100082: IT_20171016_1046:pCube13
+    100084: IT_20171016_1046:pCube15
+    100086: IT_20171016_1046:pCube16
+    100088: IT_20171016_1046:pCube2
+    100090: IT_20171016_1046:pCube3
+    100092: IT_20171016_1046:pCube5
+    100094: IT_20171016_1046:polySurface11
+    100096: IT_20171016_1046:transform4
+    100098: IT_20171016_1046:transform5
+    100100: //RootNode
+    100102: pCube1
+    100104: pCube2
+    100106: pCube3
+    100108: pCube5
+    100110: pCube6
+    100112: polySurface10
+    100114: polySurface11
+    100116: polySurface12
+    100118: polySurface13
+    100120: polySurface15
+    100122: polySurface16
+    100124: polySurface17
+    100126: polySurface18
+    100128: polySurface19
+    100130: polySurface20
+    100132: polySurface3
+    100134: polySurface3 1
+    100136: polySurface4
+    100138: polySurface9
+    100140: pSphere1
+    100142: transform1
+    100144: transform10
+    100146: transform11
+    100148: transform12
+    100150: transform13
+    100152: transform14
+    100154: transform15
+    100156: transform16
+    100158: transform17
+    100160: transform18
+    100162: transform19
+    100164: transform2
+    100166: transform20
+    100168: transform21
+    100170: transform22
+    100172: transform23
+    100174: transform24
+    100176: transform25
+    100178: transform26
+    100180: transform27
+    100182: transform28
+    100184: transform29
+    100186: transform3
+    100188: transform30
+    100190: transform31
+    100192: transform32
+    100194: transform33
+    100196: transform34
+    100198: transform35
+    100200: transform36
+    100202: transform37
+    100204: transform4
+    100206: transform5
+    100208: transform6
+    100210: transform7
+    100212: transform8
+    100214: transform9
+    400000: IT_20171016_1046:IT_20171016_1046:IT_20171016_1046:IT_20171016_1046:polySurface21
+    400002: IT_20171016_1046:IT_20171016_1046:IT_20171016_1046:IT_20171016_1046:transform11
+    400004: IT_20171016_1046:IT_20171016_1046:IT_20171016_1046:IT_20171016_1046:transform12
+    400006: IT_20171016_1046:IT_20171016_1046:IT_20171016_1046:IT_20171016_1046:transform13
+    400008: IT_20171016_1046:IT_20171016_1046:IT_20171016_1046:IT_20171016_1046:transform14
+    400010: IT_20171016_1046:IT_20171016_1046:IT_20171016_1046:IT_20171016_1046:transform15
+    400012: IT_20171016_1046:IT_20171016_1046:IT_20171016_1046:IT_20171016_1046:transform16
+    400014: IT_20171016_1046:IT_20171016_1046:IT_20171016_1046:IT_20171016_1046:transform17
+    400016: IT_20171016_1046:IT_20171016_1046:IT_20171016_1046:IT_20171016_1046:transform18
+    400018: IT_20171016_1046:IT_20171016_1046:IT_20171016_1046:IT_20171016_1046:transform19
+    400020: IT_20171016_1046:IT_20171016_1046:IT_20171016_1046:IT_20171016_1046:transform20
+    400022: IT_20171016_1046:IT_20171016_1046:IT_20171016_1046:pCube12
+    400024: IT_20171016_1046:IT_20171016_1046:IT_20171016_1046:transform1
+    400026: IT_20171016_1046:IT_20171016_1046:IT_20171016_1046:transform2
+    400028: IT_20171016_1046:IT_20171016_1046:IT_20171016_1046:transform3
+    400030: IT_20171016_1046:IT_20171016_1046:pCube10
+    400032: IT_20171016_1046:IT_20171016_1046:pCube3
+    400034: IT_20171016_1046:IT_20171016_1046:polySurface12
+    400036: IT_20171016_1046:IT_20171016_1046:polySurface13
+    400038: IT_20171016_1046:IT_20171016_1046:polySurface13 1
+    400040: IT_20171016_1046:IT_20171016_1046:polySurface14
+    400042: IT_20171016_1046:IT_20171016_1046:polySurface15
+    400044: IT_20171016_1046:IT_20171016_1046:polySurface15 1
+    400046: IT_20171016_1046:IT_20171016_1046:polySurface16
+    400048: IT_20171016_1046:IT_20171016_1046:polySurface16 1
+    400050: IT_20171016_1046:IT_20171016_1046:polySurface17
+    400052: IT_20171016_1046:IT_20171016_1046:polySurface18
+    400054: IT_20171016_1046:IT_20171016_1046:polySurface19
+    400056: IT_20171016_1046:IT_20171016_1046:polySurface21
+    400058: IT_20171016_1046:IT_20171016_1046:polySurface22
+    400060: IT_20171016_1046:IT_20171016_1046:polySurface23
+    400062: IT_20171016_1046:IT_20171016_1046:polySurface24
+    400064: IT_20171016_1046:IT_20171016_1046:polySurface25
+    400066: IT_20171016_1046:IT_20171016_1046:polySurface26
+    400068: IT_20171016_1046:IT_20171016_1046:polySurface27
+    400070: IT_20171016_1046:IT_20171016_1046:polySurface28
+    400072: IT_20171016_1046:IT_20171016_1046:polySurface29
+    400074: IT_20171016_1046:IT_20171016_1046:polySurface30
+    400076: IT_20171016_1046:IT_20171016_1046:transform3
+    400078: IT_20171016_1046:pCube10
+    400080: IT_20171016_1046:pCube12
+    400082: IT_20171016_1046:pCube13
+    400084: IT_20171016_1046:pCube15
+    400086: IT_20171016_1046:pCube16
+    400088: IT_20171016_1046:pCube2
+    400090: IT_20171016_1046:pCube3
+    400092: IT_20171016_1046:pCube5
+    400094: IT_20171016_1046:polySurface11
+    400096: IT_20171016_1046:transform4
+    400098: IT_20171016_1046:transform5
+    400100: //RootNode
+    400102: pCube1
+    400104: pCube2
+    400106: pCube3
+    400108: pCube5
+    400110: pCube6
+    400112: polySurface10
+    400114: polySurface11
+    400116: polySurface12
+    400118: polySurface13
+    400120: polySurface15
+    400122: polySurface16
+    400124: polySurface17
+    400126: polySurface18
+    400128: polySurface19
+    400130: polySurface20
+    400132: polySurface3
+    400134: polySurface3 1
+    400136: polySurface4
+    400138: polySurface9
+    400140: pSphere1
+    400142: transform1
+    400144: transform10
+    400146: transform11
+    400148: transform12
+    400150: transform13
+    400152: transform14
+    400154: transform15
+    400156: transform16
+    400158: transform17
+    400160: transform18
+    400162: transform19
+    400164: transform2
+    400166: transform20
+    400168: transform21
+    400170: transform22
+    400172: transform23
+    400174: transform24
+    400176: transform25
+    400178: transform26
+    400180: transform27
+    400182: transform28
+    400184: transform29
+    400186: transform3
+    400188: transform30
+    400190: transform31
+    400192: transform32
+    400194: transform33
+    400196: transform34
+    400198: transform35
+    400200: transform36
+    400202: transform37
+    400204: transform4
+    400206: transform5
+    400208: transform6
+    400210: transform7
+    400212: transform8
+    400214: transform9
+    2300000: polySurface3
+    3300000: polySurface3
+    4300000: polySurface3
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

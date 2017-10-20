@@ -1,15 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class DynamicObjectsManager : MonoBehaviour {
 
     public Animator mars;//火星动画
     public Animator airship;//宇宙飞船动画
-	void Start ()
-    {
-       
-    }
+
 
     private AnimatorStateInfo info;//火星动画状态信息
     private bool marsFlag = true;//火星动画是否在运行中
@@ -24,6 +22,9 @@ public class DynamicObjectsManager : MonoBehaviour {
             //播放地震动画
             airship.SetBool("shake",true);
             marsFlag = false;
+
+            //开始切换场景到火星
+            SceneManager.LoadScene("Mars");
         }
 	}
 }

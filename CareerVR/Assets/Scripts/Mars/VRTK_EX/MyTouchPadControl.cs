@@ -4,6 +4,21 @@ using UnityEngine;
 using VRTK;
 public class MyTouchPadControl : VRTK_TouchpadControl {
 
+    private void Start()
+    {
+        GetComponent<VRTK_ControllerEvents>().TouchpadPressed += new ControllerInteractionEventHandler(DoTouchpadPressed);
+    }
+
+    private bool flag = true;
+    void DoTouchpadPressed(object sender, ControllerInteractionEventArgs e)
+    {
+        if (flag == false) return;
+
+        UIManagerForMars.instance.ShowTip1();
+
+        flag = false;
+    }
+
     protected override void TouchpadAxisChanged(object sender, ControllerInteractionEventArgs e)
     {
         base.TouchpadAxisChanged(sender,e);

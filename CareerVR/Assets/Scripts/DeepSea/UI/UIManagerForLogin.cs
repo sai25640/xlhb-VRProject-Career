@@ -26,4 +26,9 @@ public class UIManagerForLogin: MonoBehaviour
     {
         SceneManager.LoadScene("DeepSea");
     }
+
+    public void OnSpaceClick()
+    {
+        SceneManager.LoadScene("Space");
+    }
 }

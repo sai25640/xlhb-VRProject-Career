@@ -11,6 +11,9 @@ public class UIManagerForMars : MonoBehaviour
     private bool canvasIsShow = false;
     public GameObject modelController;
     private bool modelControllerIsShow = false;
+    public GameObject tips1;
+    public GameObject cameraCanvas;
+
     private void Awake()
     {
         if (instance != null)
@@ -21,6 +24,17 @@ public class UIManagerForMars : MonoBehaviour
         {
             instance = this;
         }
+    }
+
+    public void HideCameraCanvas()
+    {
+        cameraCanvas.SetActive(false);
+    }
+
+    public void ShowTip1()
+    {
+        tips1.SetActive(true);
+        Invoke("HideCameraCanvas", 5f);
     }
 
     public void SetCanvas(bool show)

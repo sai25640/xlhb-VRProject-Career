@@ -46,6 +46,7 @@ public class MyUIDraggableItem : VRTK_UIDraggableItem
        
         if (restrictToDropZone)
         {
+            Debug.Log("restrictToDropZone");
             if (validDropZone != null && validDropZone != startDropZone)
             {
                 //transform.SetParent(validDropZone.transform);
@@ -53,8 +54,8 @@ public class MyUIDraggableItem : VRTK_UIDraggableItem
                 Debug.Log("开始生成建筑:" + gameObject);
                 GameObject build = Instantiate(buildPrefab, validDropZone.transform) as GameObject;
                 build.transform.parent = buildList.transform;
-                build.transform.localPosition = new Vector3(build.transform.localPosition.x, 1.1f, build.transform.localPosition.z);
-                build.transform.localScale = Vector3.one * 50;
+                build.transform.localPosition = new Vector3(build.transform.localPosition.x, 0, build.transform.localPosition.z);
+                build.transform.localScale = Vector3.one * build.GetComponent<ModelInfo>().modelScale;
                 build.transform.localRotation = Quaternion.identity;
                 build.SetActive(true);
             }
