@@ -17,11 +17,18 @@ public class MyInteractTouch : VRTK_InteractTouch
     {
         if (isTouch == true)
         {
+            //显示操控面板
             UIManagerForMars.instance.SetModelController(!UIManagerForMars.instance.ModelControllerIsShow());//touchedObject
 
-            //Debug.Log("SetModelController");
+            //关闭建筑面板
+            UIManagerForMars.instance.SetCanvas(false);
         }
  
+    }
+
+    public override void OnControllerStartUntouchInteractableObject(ObjectInteractEventArgs e)
+    {
+        base.OnControllerStartTouchInteractableObject(e);  
     }
 
     public override void OnControllerTouchInteractableObject(ObjectInteractEventArgs e)
@@ -29,8 +36,13 @@ public class MyInteractTouch : VRTK_InteractTouch
         base.OnControllerTouchInteractableObject(e);
         isTouch = true;
 
+        //绑定当前聚焦的对象是哪个建筑物体
         buttonEvent.target = touchedObject;
         buttonEvent.AttachTarget();
+
+        //显示信息面板
+        Debug.Log("显示信息面板");
+        UIManagerForMars.instance.SetModelInfo(true,touchedObject);
     }
 
     public override void OnControllerUntouchInteractableObject(ObjectInteractEventArgs e)
@@ -38,7 +50,9 @@ public class MyInteractTouch : VRTK_InteractTouch
         base.OnControllerUntouchInteractableObject(e);
         isTouch = false;
 
-        //buttonEvent.target = null;
+        //关闭信息面板
+        //Debug.Log("关闭信息面板");
+        UIManagerForMars.instance.HideCameraCanvas();
     }
 
 }

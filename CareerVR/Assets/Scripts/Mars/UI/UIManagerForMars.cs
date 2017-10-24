@@ -13,7 +13,8 @@ public class UIManagerForMars : MonoBehaviour
     private bool modelControllerIsShow = false;
     public GameObject tips1;
     public GameObject cameraCanvas;
-
+    public GameObject modelInfo;
+    private List<GameObject> modelInfoList = new List<GameObject>();
     private void Awake()
     {
         if (instance != null)
@@ -70,5 +71,36 @@ public class UIManagerForMars : MonoBehaviour
     public bool ModelControllerIsShow()
     {
         return modelControllerIsShow;
+    }
+
+    public void SetModelInfo(bool show , GameObject go)
+    {
+        {
+            cameraCanvas.SetActive(show);
+           
+            GameObject info = Instantiate(Resources.Load("Prefabs/UI/Mars/" + go.tag)) as GameObject;
+            info.transform.parent = cameraCanvas.transform;
+            info.transform.localPosition = Vector3.zero;
+            info.transform.localRotation = Quaternion.identity;
+            info.transform.localScale = Vector3.one;
+
+            //清空之前的列表
+            if (modelInfoList.Count!= 0)
+            {            
+                for (int i = 0; i < modelInfoList.Count; i++)
+                {
+                    GameObject g = modelInfoList[i];
+                    Destroy(g);
+                }
+            }
+            //添加对象到空列表中
+            modelInfoList.Add(info);
+
+        }
+    }
+
+    public void HideModelInfo()
+    {
+        cameraCanvas.SetActive(false);
     }
 }

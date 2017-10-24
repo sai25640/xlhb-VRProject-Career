@@ -5,4 +5,5 @@ using UnityEngine;
 public class ModelInfo : MonoBehaviour {
 
     public float modelScale = 1;
+    //public string modelTag = "feichuan";
 }

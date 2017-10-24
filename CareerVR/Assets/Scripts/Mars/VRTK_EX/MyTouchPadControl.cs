@@ -6,7 +6,7 @@ public class MyTouchPadControl : VRTK_TouchpadControl {
 
     private void Start()
     {
-        GetComponent<VRTK_ControllerEvents>().TouchpadPressed += new ControllerInteractionEventHandler(DoTouchpadPressed);
+        //GetComponent<VRTK_ControllerEvents>().TouchpadPressed += new ControllerInteractionEventHandler(DoTouchpadPressed);
     }
 
     private bool flag = true;
@@ -30,9 +30,6 @@ public class MyTouchPadControl : VRTK_TouchpadControl {
             canPress = false;
         }
     }
-
-
-
 
     /// <summary>
     /// 开启计时器，不允许连续触发按钮事件
