@@ -20,9 +20,6 @@ TagManager:
   - Magnetite
   - Fluorite
   - Rhodochrosite
-  - qizha
-  - taiyangnengban
-  - zongbu
   - Biodome
   - LivingCenter
   - Corridor
@@ -31,6 +28,7 @@ TagManager:
   - Headquater
   - SolarEnergyArray
   - Airlock
+  - Mars
   layers:
   - Default
   - TransparentFX

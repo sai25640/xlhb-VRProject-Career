@@ -14,7 +14,7 @@ public class MyTouchPadControl : VRTK_TouchpadControl {
     {
         if (flag == false) return;
 
-        UIManagerForMars.instance.ShowTip1();
+        //UIManagerForMars.instance.ShowTip1();
 
         flag = false;
     }

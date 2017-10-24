@@ -11,9 +11,8 @@ public class UIManagerForMars : MonoBehaviour
     private bool canvasIsShow = false;
     public GameObject modelController;
     private bool modelControllerIsShow = false;
-    public GameObject tips1;
     public GameObject cameraCanvas;
-    public GameObject modelInfo;
+
     private List<GameObject> modelInfoList = new List<GameObject>();
     private void Awake()
     {
@@ -30,12 +29,6 @@ public class UIManagerForMars : MonoBehaviour
     public void HideCameraCanvas()
     {
         cameraCanvas.SetActive(false);
-    }
-
-    public void ShowTip1()
-    {
-        tips1.SetActive(true);
-        Invoke("HideCameraCanvas", 5f);
     }
 
     public void SetCanvas(bool show)
@@ -77,8 +70,8 @@ public class UIManagerForMars : MonoBehaviour
     {
         {
             cameraCanvas.SetActive(show);
-           
             GameObject info = Instantiate(Resources.Load("Prefabs/UI/Mars/" + go.tag)) as GameObject;
+          
             info.transform.parent = cameraCanvas.transform;
             info.transform.localPosition = Vector3.zero;
             info.transform.localRotation = Quaternion.identity;
