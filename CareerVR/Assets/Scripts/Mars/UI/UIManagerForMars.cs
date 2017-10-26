@@ -75,7 +75,7 @@ public class UIManagerForMars : MonoBehaviour
             info.transform.parent = cameraCanvas.transform;
             info.transform.localPosition = Vector3.zero;
             info.transform.localRotation = Quaternion.identity;
-            info.transform.localScale = Vector3.one;
+            info.transform.localScale = Vector3.one * 0.8f;
 
             //清空之前的列表
             if (modelInfoList.Count!= 0)
@@ -95,5 +95,23 @@ public class UIManagerForMars : MonoBehaviour
     public void HideModelInfo()
     {
         cameraCanvas.SetActive(false);
+    }
+
+    private bool scroeIsShow = false;
+    public void ShowScore(string name)
+    {
+        if (scroeIsShow == true) return;
+
+        cameraCanvas.SetActive(true);
+        GameObject info = Instantiate(Resources.Load("Prefabs/UI/Mars/Job/" + name)) as GameObject;
+
+        info.transform.parent = cameraCanvas.transform;
+        info.transform.localPosition = Vector3.zero;
+        info.transform.localRotation = Quaternion.identity;
+        info.transform.localScale = Vector3.one;
+
+        info.AddComponent<ReturenMainScene>();
+
+        scroeIsShow = true;
     }
 }

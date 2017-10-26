@@ -33,6 +33,9 @@ public class MyInteractTouch : VRTK_InteractTouch
 
     public override void OnControllerTouchInteractableObject(ObjectInteractEventArgs e)
     {
+        //如果游戏结束就不让弹出信息面板了
+        if (GameManagerForMars.instance.GameIsOver() == true) return;
+
         base.OnControllerTouchInteractableObject(e);
         isTouch = true;
 
@@ -47,6 +50,9 @@ public class MyInteractTouch : VRTK_InteractTouch
 
     public override void OnControllerUntouchInteractableObject(ObjectInteractEventArgs e)
     {
+        //如果游戏结束就不让弹出信息面板了
+        if (GameManagerForMars.instance.GameIsOver() == true) return;
+
         base.OnControllerUntouchInteractableObject(e);
         isTouch = false;
 

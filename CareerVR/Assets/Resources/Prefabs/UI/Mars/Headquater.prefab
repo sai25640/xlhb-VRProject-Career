@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 224875376892857544}
   - component: {fileID: 222721264982691486}
   - component: {fileID: 114450094821732960}
+  - component: {fileID: 114661927100136572}
   m_Layer: 5
   m_Name: Headquater
   m_TagString: Headquater
@@ -122,6 +123,18 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "\u706B\u661F\u57FA\u5730\u603B\u90E8\uFF08Headquater\uFF09"
+--- !u!114 &114661927100136572
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1158106885468140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3afc48b3425f20240b464dd56ae2489f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destroyTime: 5
 --- !u!114 &114996648359269448
 MonoBehaviour:
   m_ObjectHideFlags: 1

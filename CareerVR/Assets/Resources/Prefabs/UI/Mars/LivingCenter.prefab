@@ -55,6 +55,7 @@ GameObject:
   - component: {fileID: 224633431519326752}
   - component: {fileID: 222723446373786434}
   - component: {fileID: 114062946963637610}
+  - component: {fileID: 114744451308755430}
   m_Layer: 5
   m_Name: LivingCenter
   m_TagString: LivingCenter
@@ -155,6 +156,18 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "\u8FD9\u91CC\u662F\u4EBA\u7C7B\u8212\u9002\u7684\u5C45\u4F4F\u4E2D\u5FC3\uFF0C\u6BCF\u4E2A\u5355\u95F4\u53EF\u4F4F2\u4E2A\u4EBA\u3002"
+--- !u!114 &114744451308755430
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1579662502904974}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3afc48b3425f20240b464dd56ae2489f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destroyTime: 5
 --- !u!222 &222686616531127490
 CanvasRenderer:
   m_ObjectHideFlags: 1

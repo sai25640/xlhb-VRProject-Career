@@ -55,6 +55,7 @@ GameObject:
   - component: {fileID: 224734659408866090}
   - component: {fileID: 222770162791689240}
   - component: {fileID: 114833093852465058}
+  - component: {fileID: 114539769013404960}
   m_Layer: 5
   m_Name: SolarEnergyArray
   m_TagString: SolarEnergyArray
@@ -62,6 +63,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &114539769013404960
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1949735943809904}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3afc48b3425f20240b464dd56ae2489f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destroyTime: 5
 --- !u!114 &114797478587523540
 MonoBehaviour:
   m_ObjectHideFlags: 1

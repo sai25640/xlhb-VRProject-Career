@@ -38,6 +38,7 @@ GameObject:
   - component: {fileID: 224331793988595302}
   - component: {fileID: 222968220042961644}
   - component: {fileID: 114080096201412084}
+  - component: {fileID: 114971279618647666}
   m_Layer: 5
   m_Name: Corridor
   m_TagString: Corridor
@@ -155,6 +156,18 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "\u8FDE\u63A5\u901A\u9053\uFF08Corridor\uFF09"
+--- !u!114 &114971279618647666
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1601537407059326}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3afc48b3425f20240b464dd56ae2489f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destroyTime: 5
 --- !u!222 &222734094985296766
 CanvasRenderer:
   m_ObjectHideFlags: 1
