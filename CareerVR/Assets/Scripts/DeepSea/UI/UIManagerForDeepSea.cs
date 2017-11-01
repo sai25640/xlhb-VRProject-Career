@@ -7,7 +7,7 @@ public class UIManagerForDeepSea : MonoBehaviour {
     public static UIManagerForDeepSea instance;
     public GameObject canvas;
     public float uiScale =0.8f;
-    
+    private List<GameObject> uiList = new List<GameObject>();
     void Awake()
     {
         if (instance != null)
@@ -19,6 +19,14 @@ public class UIManagerForDeepSea : MonoBehaviour {
             instance = this;
         }
     }
+
+    //显示Tip0
+    public void ShowTip0()
+    {
+
+    }
+
+
 
     //显示物品信息
     public void Show(GameObject go)

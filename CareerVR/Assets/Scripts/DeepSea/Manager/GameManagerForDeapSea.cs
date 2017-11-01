@@ -29,6 +29,10 @@ public class GameManagerForDeapSea : MonoBehaviour {
 
     }
 
+    private void Start()
+    {
+           
+    }
 
     void Update()
     {
